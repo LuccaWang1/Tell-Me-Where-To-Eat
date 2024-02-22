@@ -5,6 +5,13 @@ from flask import Flask, render_template, request, flash, session, redirect, jso
 
 app = Flask(__name__)
 
+@app.route("/homepage")
+def render_homepage():
+    
+    return render_template("homepage.html")
+
+@app.route("/handle-choose-one")
+def choose_one():
 
 
 if __name__ == "__main__":    
