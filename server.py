@@ -10,7 +10,14 @@ def homepage():
     
     return render_template("homepage.html")
 
+@app.route("/handle-choose-one")
+def handle_choose_one():
+    """Chose an eatery for the user."""
 
+    eatery_type = request.form.get("kinds")
+
+    if eatery_type == "asian":
+        
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
