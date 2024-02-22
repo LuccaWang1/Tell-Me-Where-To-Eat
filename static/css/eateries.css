@@ -2,3 +2,10 @@
 Burnt Orange: #CC5500 rgb(204, 85, 0)
 Light Orange: #FFD580 rgb(255, 213, 128) 
 Dark Blue: #000066 */
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    color: #CC5500;
+    background-color: #FFD580;
+}

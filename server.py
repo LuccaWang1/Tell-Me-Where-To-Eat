@@ -18,27 +18,31 @@ def handle_choose_one():
 
     eatery_type = request.form.get("kinds")
 
-    if eatery_type == "american":
-        eatery = random.choice(eatery_datasets.american)
+    if eatery_type == "":
+        eatery = random.choice(eatery_datasets.eateries[["american"]+["asian"]+["breakfast"]+["desert"]+["fast_food"]+["italian"]+["mexican"]])
 
-    if eatery_type == "asian": 
-        eatery = random.choice(eatery_datasets.asian) 
+    else:
+        if eatery_type == "american":
+            eatery = random.choice(eatery_datasets.american)
 
-    if eatery_type == "breakfast": 
-        eatery = random.choice(eatery_datasets.breakfast)
+        if eatery_type == "asian": 
+            eatery = random.choice(eatery_datasets.asian)
 
-    if eatery_type == "desert": 
-        eatery = random.choice(eatery_datasets.desert)
+        if eatery_type == "breakfast": 
+            eatery = random.choice(eatery_datasets.breakfast)
 
-    if eatery_type == "fast_food": 
-        eatery = random.choice(eatery_datasets.fast_food)
+        if eatery_type == "desert": 
+            eatery = random.choice(eatery_datasets.desert)
+
+        if eatery_type == "fast_food": 
+            eatery = random.choice(eatery_datasets.fast_food)
+            
+        if eatery_type == "italian": 
+            eatery = random.choice(eatery_datasets.italian)
+
+        if eatery_type == "mexican":
+            eatery = random.choice(eatery_datasets.mexican)
         
-    if eatery_type == "italian": 
-        eatery = random.choice(eatery_datasets.italian)
-
-    if eatery_type == "mexican":
-        eatery = random.choice(eatery_datasets.mexican) 
-
     
 
 if __name__ == "__main__":
