@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell Me Where To Eat</title>
+</head>
+<body>
+    <h1>Welcome to Tell Me Where To Eat!</h1>
+    
+    <form id="SubmitForm" action="/handle-choose-one">
+        <div id="MA_OwnerInfoContainer">
+            <div id="type-container">
+                <label for="kinds">Type:</label>
+                
+                <select name="kinds">
+                    <option value="asian">Asian</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="desert">Desert</option>
+                    <option value="fast-food">Fast Food</option>
+                    <option value="italian">Italian</option>
+                    <option value="mexican">Mexican</option> 
+                </select>    
+            </div>
+        </div>
+    
+        </br>
+    
+        <button type="submit" id="Tell-Me-Button">Tell Me Where To Eat</button>
+    </form>
+
+    <script src="/button.js"></script>
+</body>
+</html>
