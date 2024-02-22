@@ -1,32 +1,48 @@
 """Eatery Datasets"""
 
-# american 
-# Pecan Grill
-# The Game 
-# Bubba's
-# Cracker Barrel
-# Corner Bakery 
-# Bosque Telshor 
-# Bosque University 
+american = [
+    "Pecan Grill", 
+    "Bubba's",
+    "The Game",
+    "Cracker Barrel",
+    "Corner Bakery",
+    "Bosque Telshor",
+    "Bosque University",
+]
 
-# asian 
-# Sakura
-# Sushi Freak
+asian = [
+    "Sakura", 
+    "Sushi Freak",
+]
 
-# breakfast
-# Weck's 
+breakfast = [
+    "Weck's",
+]
 
-# desert
-# DQ
+desert = [
+    "DQ",
+]
 
-# fast-foot 
-# DQ
-# Taco Bell
+fast_food = [
+    "DQ", 
+    "Taco Bell",
+]
 
-# italian
-# Luna Rossa
+italian = [
+    "Luna Rossa",
+]
 
-# mexican
-# Si Senior 
-# Taco Sheila's 
+mexican = [
+    "Si Senior", 
+    "Taco Sheila's",
+]
 
+eateries = {
+    "american": american, 
+    "asian": asian,
+    "breakfast": breakfast,
+    "desert": desert,
+    "fast_food": fast_food,
+    "italian": italian,
+    "mexican": mexican,
+}
