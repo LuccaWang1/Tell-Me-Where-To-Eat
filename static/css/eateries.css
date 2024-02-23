@@ -10,48 +10,44 @@ body {
     font-family: 'Arial', sans-serif;
     color: white;
     background-color: #DFC5FE;
-    font-size: 25px;
+    font-size: 50px;
     justify-content: center;
+    text-align: center;
+}
+
+.cursive {
+    font-family: "Brush Script MT", serif;
+    font-size: 40px;
+    text-align: center;
 }
 
 #tell-me-button {
-    border-color: black;
     color: white;
-    box-shadow: 5px;
     background-color: #DFC5FE;
-    font-size: 25px;
+    font-size: 40px;
     justify-content: center;
 }
 
 #tell-me-button:hover {
-    border-color: #C21E56;
-    box-shadow: 5px;
+    color: #DFC5FE;
     background-color: #C21E56;
     color: #DFC5FE;
-    font-size: 25px;
+    font-size: 40px;
     justify-content: center;
 }
 
 #tell-me-button:active {
-    border-color: #DFC5FE;
-    box-shadow: 5px;
-    background-color: black;
-    color: #DFC5FE;
-    font-size: 25px;
+    border-color: #C21E56;
+    background-color: #DFC5FE;
+    color: #C21E56;
+    font-size: 40px;
     justify-content: center;
 }
-
-/* #submit-form {
-    color: #FFD580;
-} */
 
 #eatery-result-container {
     border-color: black;
 }
 
-/* 
-.box.flex {
-    display: flex;
-    justify-content: center;
+#submit-form {
     align-items: center;
-  } */
+}
