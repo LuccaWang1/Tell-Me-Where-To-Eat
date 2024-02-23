@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tell Me Where To Eat</title>
+    <link href="static/css/eateries.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Welcome to Tell Me Where To Eat!</h1>
-    
-    <form id="SubmitForm" action="/handle-choose-one">
-        <div id="MA_OwnerInfoContainer">
-            <div id="type-container">
-                <label for="kinds">Type:</label>
-                
-                <select name="kinds">
-                    <option value="american">American</option>
-                    <option value="asian">Asian</option>
-                    <option value="breakfast">Breakfast</option>
-                    <option value="desert">Desert</option>
-                    <option value="fast-food">Fast Food</option>
-                    <option value="italian">Italian</option>
-                    <option value="mexican">Mexican</option> 
-                </select>    
+    <div>
+        <p style="">Welcome</p>
+        <h1>Tell Me Where To Eat</h1>
+        <p><br></p>
+        <form id="submit-form" action="/handle-choose-one">
+            <div>
+                <div>
+                    <label for="kinds">Have a slight preference today?</label>
+                    <select name="kinds">
+                        <option value="american">American</option>
+                        <option value="asian">Asian</option>
+                        <option value="breakfast">Breakfast</option>
+                        <option value="desert">Desert</option>
+                        <option value="fast-food">Fast Food</option>
+                        <option value="italian">Italian</option>
+                        <option value="mexican">Mexican</option> 
+                    </select>    
+                </div>
             </div>
-        </div>
-    
-        </br>
-    
-        <button type="submit" id="Tell-Me-Button">Tell Me Where To Eat</button>
-    </form>
+        
+            </br>
+        
+            <button type="submit" id="tell-me-button">Tell Me Where To Eat</button>
+        </form>
 
-    <section id="eatery-result-container"></section>
-
-    <script src="/button.js"></script>
+        <div id="eatery-result-container"></div>
+    </div>
 </body>
 </html>

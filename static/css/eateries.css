@@ -1,11 +1,57 @@
 /* Color palette: 
 Burnt Orange: #CC5500 rgb(204, 85, 0)
 Light Orange: #FFD580 rgb(255, 213, 128) 
-Dark Blue: #000066 */
+Dark Blue: #000066 
+Pink: #FFC0CB
+Thistle (purple): #D8BFD8 
+Ruby Red: #C21E56 */
 
 body {
     font-family: 'Arial', sans-serif;
-    font-size: 40px;
-    color: #CC5500;
-    background-color: #FFD580;
+    color: white;
+    background-color: #DFC5FE;
+    font-size: 25px;
+    justify-content: center;
 }
+
+#tell-me-button {
+    border-color: black;
+    color: white;
+    box-shadow: 5px;
+    background-color: #DFC5FE;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#tell-me-button:hover {
+    border-color: #C21E56;
+    box-shadow: 5px;
+    background-color: #C21E56;
+    color: #DFC5FE;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#tell-me-button:active {
+    border-color: #DFC5FE;
+    box-shadow: 5px;
+    background-color: black;
+    color: #DFC5FE;
+    font-size: 25px;
+    justify-content: center;
+}
+
+/* #submit-form {
+    color: #FFD580;
+} */
+
+#eatery-result-container {
+    border-color: black;
+}
+
+/* 
+.box.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
