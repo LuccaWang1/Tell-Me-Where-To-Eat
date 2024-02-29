@@ -6,7 +6,7 @@ const tellMeButton = document.querySelector('#submit-form');
 
 const eatery = document.querySelector('#eatery-preference').value
 
-const url = `/weather.json?eatery=${eatery}`;
+const url = `/handle-choose-one.json?eatery=${eatery}`;
 
 function showEatery(event) {
    event.preventDefault();
