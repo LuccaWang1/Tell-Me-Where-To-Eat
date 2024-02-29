@@ -2,25 +2,15 @@
 
 const tellMeButton = document.querySelector('#tell-me-button');
 
-const eateryPreference = document.querySelector('#eatery-preference')
+const eateryPreferenceValue = document.querySelector('#eatery-preference').value
 
 function handleSubmit(event) {
    event.preventDefault();
    
-   fetch('/handle-choose-one', {
-      method: 'POST',
-      body: JSON.stringify(tellMeButtonValue),
-      headers: {
-         'Content-Type': 'application/json',
-      },
-   })
-      .then((response) => {
-         console.log('in the response .then')
-         return response.json()
-      })
+   fetch('/handle-choose-one')
+      .then((response) => response.json())
       .then((responseJson) => {
-         console.log('in the responseJson .then doing the fetch AJAX response');
-         console.log(responseJson);
+         document.querySelector('#eatery-result-container').innerText = responseData;
       })
 }
 

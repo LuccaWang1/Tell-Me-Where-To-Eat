@@ -7,21 +7,23 @@
     <link href="static/css/eateries.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div>
+    <div class="blue-box-div">
         <h1 class="cursive">Welcome</h1>
         <p><strong>Tell Me Where To Eat</strong></p>
         <form id="submit-form">
-            <div>
+            <div class="dropdown">
                 <label for="kinds">Have a slight preference today?</label>
-                <select name="kinds" id="eatery-preference">
-                    <option value="american">American</option>
-                    <option value="asian">Asian</option>
-                    <option value="breakfast">Breakfast</option>
-                    <option value="desert">Desert</option>
-                    <option value="fast-food">Fast Food</option>
-                    <option value="italian">Italian</option>
-                    <option value="mexican">Mexican</option> 
-                </select>
+                <div class="dropdown-content">
+                    <select name="kinds" id="eatery-preference">
+                        <option value="american">American</option>
+                        <option value="asian">Asian</option>
+                        <option value="breakfast">Breakfast</option>
+                        <option value="desert">Desert</option>
+                        <option value="fast-food">Fast Food</option>
+                        <option value="italian">Italian</option>
+                        <option value="mexican">Mexican</option> 
+                    </select>
+                </div>
             </div>
         
             <p></p>
