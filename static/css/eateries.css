@@ -17,35 +17,36 @@ body {
 
 .cursive {
     font-family: "Brush Script MT", serif;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
 #tell-me-button {
     color: white;
     background-color: #DFC5FE;
-    font-size: 40px;
+    font-size: 50px;
     justify-content: center;
+    border-radius: 5px;
 }
 
 #tell-me-button:hover {
     color: #DFC5FE;
-    background-color: #C21E56;
-    color: #DFC5FE;
-    font-size: 40px;
+    background-color: white;
+    font-size: 50px;
     justify-content: center;
+    border-radius: 5px;
 }
 
 #tell-me-button:active {
-    border-color: #C21E56;
+    color: white;
     background-color: #DFC5FE;
-    color: #C21E56;
-    font-size: 40px;
+    font-size: 50px;
     justify-content: center;
+    border-radius: 5px;
 }
 
 #eatery-result-container {
-    border-color: black;
+    border-radius: 5px;
 }
 
 #submit-form {

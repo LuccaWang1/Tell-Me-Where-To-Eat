@@ -9,11 +9,11 @@
 <body>
     <div>
         <h1 class="cursive">Welcome</h1>
-        <p>Tell Me Where To Eat</p>
-        <form id="submit-form" action="/handle-choose-one">
+        <p><strong>Tell Me Where To Eat</strong></p>
+        <form id="submit-form">
             <div>
                 <label for="kinds">Have a slight preference today?</label>
-                <select name="kinds">
+                <select name="kinds" id="eatery-preference">
                     <option value="american">American</option>
                     <option value="asian">Asian</option>
                     <option value="breakfast">Breakfast</option>
@@ -29,7 +29,9 @@
             <button type="submit" id="tell-me-button">Tell Me Where To Eat</button>
         </form>
 
-        <div id="eatery-result-container"></div>
+        <p></p>
+
+        <div id="eatery-result-container">here</div>
     </div>
 </body>
 </html>
