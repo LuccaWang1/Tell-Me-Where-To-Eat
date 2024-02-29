@@ -6,7 +6,7 @@ Pink: #FFC0CB
 Thistle (purple): #D8BFD8 
 Ruby Red: #C21E56 */
 
-body {
+/* body {
     font-family: 'Arial', sans-serif;
     color: white;
     background-color: #DFC5FE;
@@ -53,25 +53,25 @@ body {
     align-items: center;
 }
 
-.blue-box-div {
-    background-color: darkblue;
+.div-background {
+    background-color: #000066;
+    width: 50%;
+    height: 500px;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    background-color: #FFD580;
 }
 
 .dropdown-content {
-display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-padding: 12px 16px;
-z-index: 1;
+    background-color: #FFD580;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
 }
 
 .dropdown:hover .dropdown-content {
-display: block;
-}
+    display: block;
+} */

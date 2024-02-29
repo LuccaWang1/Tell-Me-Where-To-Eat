@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tell Me Where To Eat</title>
-    <link href="static/css/eateries.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <div class="blue-box-div">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tell Me Where To Eat</title>
+        <!-- <link href="static/css/eateries.css" rel="stylesheet" type="text/css"> -->
+    </head>
+    <body>
         <h1 class="cursive">Welcome</h1>
         <p><strong>Tell Me Where To Eat</strong></p>
-        <form id="submit-form">
-            <div class="dropdown">
+            <form id="submit-form">
                 <label for="kinds">Have a slight preference today?</label>
-                <div class="dropdown-content">
-                    <select name="kinds" id="eatery-preference">
-                        <option value="american">American</option>
-                        <option value="asian">Asian</option>
-                        <option value="breakfast">Breakfast</option>
-                        <option value="desert">Desert</option>
-                        <option value="fast-food">Fast Food</option>
-                        <option value="italian">Italian</option>
-                        <option value="mexican">Mexican</option> 
+                    <select name="kinds" id="eatery-preference">Select
+                        <option class="dropdown-content" value="american">American</option>
+                        <option class="dropdown-content" value="asian">Asian</option>
+                        <option class="dropdown-content" value="breakfast">Breakfast</option>
+                        <option class="dropdown-content" value="desert">Desert</option>
+                        <option class="dropdown-content" value="fast-food">Fast Food</option>
+                        <option class="dropdown-content" value="italian">Italian</option>
+                        <option class="dropdown-content" value="mexican">Mexican</option> 
                     </select>
-                </div>
-            </div>
-        
-            <p></p>
-        
-            <button type="submit" id="tell-me-button">Tell Me Where To Eat</button>
+                    
+                    <p></p>
+
+                    <button type="submit">Tell Me Where To Eat</button>
         </form>
 
         <p></p>
 
-        <div id="eatery-result-container">here</div>
-    </div>
-</body>
+        <div id="eatery-result-container"></div>
+
+        <script src="/static/js/button.js"></script>
+    </body>
 </html>
