@@ -6,6 +6,44 @@ Pink: #FFC0CB
 Thistle (purple): #D8BFD8 
 Ruby Red: #C21E56 */
 
+* {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    color: #000066;
+    background-color: #d8bfd8;
+}
+
+div {
+    height: 60px;
+    width: 50%;
+    background-color: #FFD580;
+}
+
+.button {
+    color: white;
+    background-color: #DFC5FE;
+    font-size: 50px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: #DFC5FE;
+    background-color: white;
+    font-size: 50px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.button:active {
+    color: white;
+    background-color: #DFC5FE;
+    font-size: 50px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
 /* body {
     font-family: 'Arial', sans-serif;
     color: white;
@@ -19,30 +57,6 @@ Ruby Red: #C21E56 */
     font-family: "Brush Script MT", serif;
     font-size: 50px;
     text-align: center;
-}
-
-#tell-me-button {
-    color: white;
-    background-color: #DFC5FE;
-    font-size: 50px;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-#tell-me-button:hover {
-    color: #DFC5FE;
-    background-color: white;
-    font-size: 50px;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-#tell-me-button:active {
-    color: white;
-    background-color: #DFC5FE;
-    font-size: 50px;
-    justify-content: center;
-    border-radius: 5px;
 }
 
 #eatery-result-container {

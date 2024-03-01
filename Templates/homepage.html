@@ -4,36 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tell Me Where To Eat</title>
-        <!-- <link href="static/css/eateries.css" rel="stylesheet" type="text/css"> -->
+        <link href="static/css/eateries.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1 class="cursive">Welcome</h1>
+            <p>Welcome to Tell Me Where To Eat!</p>
+
+                <form id="form">
+                    <label for="choice">Want a certain type of food today?</label>
+                        <select name="choice" id="eatery-preference">
+                            <option value="" disabled selected>Select an option</option>
+                            <option class="dropdown-content" value="american">American</option>
+                            <option class="dropdown-content" value="asian">Asian</option>
+                            <option class="dropdown-content" value="breakfast">Breakfast</option>
+                            <option class="dropdown-content" value="desert">Desert</option>
+                            <option class="dropdown-content" value="fast_food">Fast Food</option>
+                            <option class="dropdown-content" value="italian">Italian</option>
+                            <option class="dropdown-content" value="mexican">Mexican</option> 
+                        </select>
+                        
+                        <p></p>
+
+                        <button type="submit" id="button">Tell Me</button>
+                </form>
+
+            <p></p>
+
+            <div style="border: 2px solid #C21E56; padding: 10px;" id="eatery-result-container"></div>
         
-        <p><strong>Tell Me Where To Eat</strong></p>
-            
-            <form id="form">
-                <label for="choice">Want a certain type of food today?</label>
-                    <select name="choice" id="eatery-preference">
-                        <option value="" disabled selected>Select an option</option>
-                        <option class="dropdown-content" value="american">American</option>
-                        <option class="dropdown-content" value="asian">Asian</option>
-                        <option class="dropdown-content" value="breakfast">Breakfast</option>
-                        <option class="dropdown-content" value="desert">Desert</option>
-                        <option class="dropdown-content" value="fast-food">Fast Food</option>
-                        <option class="dropdown-content" value="italian">Italian</option>
-                        <option class="dropdown-content" value="mexican">Mexican</option> 
-                    </select>
-                    
-                    <p></p>
-
-                    <button type="submit">Tell Me</button>
-            </form>
-
-        <p></p>
-
-        <div style="border: 2px solid #C21E56; padding: 10px;" id="eatery-result-container">
-        </div>
-
         <script src="/static/js/button.js"></script>
     </body>
 </html>

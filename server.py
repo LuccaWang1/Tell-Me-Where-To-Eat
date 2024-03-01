@@ -41,7 +41,7 @@ def handle_choose_one():
         eatery = random.choice(eateries["desert"])
         return jsonify({"eatery": eatery})
 
-    elif eatery == "fast_food": 
+    elif eatery == "fast_food":
         eatery = random.choice(eateries["fast_food"])
         return jsonify({"eatery": eatery})
         
