@@ -2,17 +2,25 @@
 
 console.log('in button.js')
 
-const tellMeButton = document.querySelector('#submit-form');
+const tellMeButton = document.querySelector('#form');
 
 const eatery = document.querySelector('#eatery-preference').value
-
-const url = `/handle-choose-one.json?eatery=${eatery}`;
 
 function showEatery(event) {
    event.preventDefault();
    console.log('in showEatery function')
+
+   const queryString = new URLSearchParams({ eatery: eatery }).toString();
+
+   const url = `/handle-choose-one?${queryString}`;
    
-   fetch(url)
+   fetch(url, {
+      method: 'POST',
+      body: JSON.stringify(eatery),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
       .then((response) => response.json())
       .then((serverData) => {
          console.log('in fetch request about to put something on the DOM in the designated div')

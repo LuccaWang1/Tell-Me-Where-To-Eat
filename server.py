@@ -12,11 +12,11 @@ def homepage():
     
     return render_template("homepage.html")
 
-@app.route("/handle-choose-one")
+@app.route("handle-choose-one")
 def handle_choose_one():
     """Chose an eatery for the user."""
 
-    eatery_type = request.form.get("kinds")
+    eatery_type = request.json.get("eatery")
 
     if eatery_type == "":
         eatery = random.choice(eateries[["american"]+["asian"]+["breakfast"]+["desert"]+["fast_food"]+["italian"]+["mexican"]])
