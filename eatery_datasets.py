@@ -6,8 +6,8 @@ american = [
     "The Game",
     "Cracker Barrel",
     "Corner Bakery",
-    "Bosque Telshor",
-    "Bosque University",
+    "Bosque (Telshor)",
+    "Bosque (University)",
 ]
 
 asian = [
