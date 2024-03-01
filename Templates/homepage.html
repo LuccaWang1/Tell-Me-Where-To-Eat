@@ -12,8 +12,9 @@
         <p><strong>Tell Me Where To Eat</strong></p>
             
             <form id="form">
-                <label for="kinds">Have a slight preference today?</label>
-                    <select name="kinds" id="eatery-preference">
+                <label for="choice">Want a certain type of food today?</label>
+                    <select name="choice" id="eatery-preference">
+                        <option value="" disabled selected>Select an option</option>
                         <option class="dropdown-content" value="american">American</option>
                         <option class="dropdown-content" value="asian">Asian</option>
                         <option class="dropdown-content" value="breakfast">Breakfast</option>
@@ -30,7 +31,8 @@
 
         <p></p>
 
-        <div id="eatery-result-container"></div>
+        <div style="border: 2px solid #C21E56; padding: 10px;" id="eatery-result-container">
+        </div>
 
         <script src="/static/js/button.js"></script>
     </body>

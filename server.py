@@ -16,42 +16,45 @@ def homepage():
 def handle_choose_one():
     """Chose an eatery for the user."""
 
-    eatery_type = request.json.get("eatery")
+    eatery = request.json.get("eatery")
 
-    if eatery_type == "":
-        eatery = random.choice(eateries[["american"]+["asian"]+["breakfast"]+["desert"]+["fast_food"]+["italian"]+["mexican"]])
+    if eatery == "":
+        all = eateries["american"] + eateries["asian"] + eateries["breakfast"] + eateries["desert"] + eateries["fast_food"] + eateries["italian"] + eateries["mexican"]
+
+        eatery = random.choice(all)
+        
         return jsonify({"eatery": eatery})
 
-    else:
-        if eatery_type == "american":
-            eatery = random.choice(eateries["american"])
-            return jsonify({"eatery": eatery})
+    elif eatery == "american":
+        eatery = random.choice(eateries["american"])
+        return jsonify({"eatery": eatery})
 
-        if eatery_type == "asian": 
-            eatery = random.choice(eateries["asian"])
-            return jsonify({"eatery": eatery})
+    elif eatery == "asian": 
+        eatery = random.choice(eateries["asian"])
+        return jsonify({"eatery": eatery})
 
-        if eatery_type == "breakfast": 
-            eatery = random.choice(eateries["breakfast"])
-            return jsonify({"eatery": eatery})
+    elif eatery == "breakfast": 
+        eatery = random.choice(eateries["breakfast"])
+        return jsonify({"eatery": eatery})
 
-        if eatery_type == "desert": 
-            eatery = random.choice(eateries["desert"])
-            return jsonify({"eatery": eatery})
+    elif eatery == "desert": 
+        eatery = random.choice(eateries["desert"])
+        return jsonify({"eatery": eatery})
 
-        if eatery_type == "fast_food": 
-            eatery = random.choice(eateries["fast_food"])
-            return jsonify({"eatery": eatery})
-            
-        if eatery_type == "italian": 
-            eatery = random.choice(eateries["italian"])
-            return jsonify({"eatery": eatery})
-
-        if eatery_type == "mexican":
-            eatery = random.choice(eateries["mexican"])
-            return jsonify({"eatery": eatery})
+    elif eatery == "fast_food": 
+        eatery = random.choice(eateries["fast_food"])
+        return jsonify({"eatery": eatery})
         
-    
+    elif eatery == "italian": 
+        eatery = random.choice(eateries["italian"])
+        return jsonify({"eatery": eatery})
+
+    elif eatery == "mexican":
+        eatery = random.choice(eateries["mexican"])
+        return jsonify({"eatery": eatery})
+        
+    else:
+        return jsonify({"error": "Invalid eatery option"}), 400
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
