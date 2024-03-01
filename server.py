@@ -12,7 +12,7 @@ def homepage():
     
     return render_template("homepage.html")
 
-@app.route("handle-choose-one", methods=['POST'])
+@app.route("/handle-choose-one", methods=["POST"])
 def handle_choose_one():
     """Chose an eatery for the user."""
 
