@@ -2,7 +2,7 @@
 
 # Tell Me Where To Eat
 
-![Image of homepage: selecting type of food from the dropdown menu](/static/images/dropdown.png)
+![Image of homepage: selecting type of food from the dropdown menu](/static/images/home.png)
 
 ### Project Description 
 Tell Me Where To Eat provides a solution to psychological analysis paralysis and simplifying dinner decision making. 
@@ -11,7 +11,7 @@ The web app does this by allowing someone to select a type of food they are crav
 
 The full stack project was built and architected solely by Lucca Wang, who created the app from scratch, developing with Python, Flask, and JavaScript.
 
-![Image of homepage: after selecting a type and clicking the button, a single eatery is placed in the div placeholder](/static/images/button_evt_json_div.png)
+![Image of homepage: selecting type of food from the dropdown menu](/static/images/dropdown.png)
 
 ### Technologies Used  
 * Python (server, backend logic)
@@ -21,6 +21,8 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 * Datasets of real eateries (py file, imported into server for backend logic)
 * CSS (frontend styling)
 * HTML (homepage template, rendered by Flask)
+
+![Image of homepage: after selecting a type and clicking the button, a single eatery is placed in the div placeholder](/static/images/button_evt_json_div.png)
 
 ### Author  
 Lucca Wang is an American software engineer.
