@@ -2,9 +2,14 @@
 
 from flask import Flask, render_template, request, jsonify
 import random
+import os
+
 from eatery_datasets import eateries
 
 app = Flask(__name__)
+
+#secret key is needed to use Flask session features
+app.secret_key = os.environ["KEY"]
 
 @app.route("/")
 def homepage():
