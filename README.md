@@ -10,13 +10,13 @@ The web app does this by allowing someone to select a type of food they are crav
 The full stack project was built and architected solely by Lucca Wang, who created the app from scratch, developing with Python, Flask, and JavaScript.
 
 ### Technologies Used  
-* Python
-* Flask 
-* JavaScript
-* Python's random module 
-* Datasets of real eateries
-* CSS
-* HTML  
+* Python (server, backend logic)
+* Flask (Python framework)
+* JavaScript (frontend)
+* Python's random module (in server used in backend logic) 
+* Datasets of real eateries (py file, imported into server for backend logic)
+* CSS (frontend styling)
+* HTML (homepage template, rendered by Flask)
 
 ### Author  
 Lucca Wang is an American software engineer.
