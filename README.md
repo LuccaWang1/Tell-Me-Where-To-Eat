@@ -2,7 +2,7 @@
 
 # Tell Me Where To Eat
 
-![Image of homepage: selecting type of food from the dropdown menu](/static/images/selection_dropdown.png)
+![Image of homepage: selecting type of food from the dropdown menu](/static/images/dropdown.png)
 
 ### Project Description 
 Tell Me Where To Eat provides a solution to psychological analysis paralysis and simplifying dinner decision making. 
