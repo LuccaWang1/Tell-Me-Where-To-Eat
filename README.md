@@ -24,7 +24,7 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 * CSS (frontend, styling)
 * HTML (homepage template, rendered by Flask)
 
-*When the user hovers over the button, there is a visual clue that occurs with CSS.*
+*When the user hovers over the button, there is a visual clue that occurs with CSS - the button turns the darker blue color and the usual colors are inverted.*
 ![Image of homepage: When the user hovers over the button, there is a visual clue that occurs with CSS.](/static/images/readme_markdown/hover.png)
 
 ### Accessibility
