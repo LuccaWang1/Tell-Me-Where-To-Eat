@@ -2,6 +2,7 @@
 
 # Tell Me Where To Eat
 
+*This is the homepage of the web app.*
 ![Image of homepage: This is the homepage of the web app.](/static/images/readme_markdown/home2.png)
 
 ## Project Description 
@@ -11,7 +12,8 @@ The web app does this by allowing someone to select a type of food they are crav
 
 The full stack project was built and architected solely by Lucca Wang, who created the app from scratch, developing with Python, Flask, and JavaScript.
 
-![Image of homepage: selecting type of food from the dropdown menu](/static/images/readme_markdown/dropdown2.png)
+*Users can select a type of food from the dropdown menu.*
+![Image of homepage: Users can select a type of food from the dropdown menu.](/static/images/readme_markdown/dropdown2.png)
 
 ### Technologies Used  
 * Python (server, backend logic)
@@ -22,7 +24,8 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 * CSS (frontend, styling)
 * HTML (homepage template, rendered by Flask)
 
-![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/hover.png)
+*When the user hovers over the button, there is a visual clue that occurs with CSS.*
+![Image of homepage: When the user hovers over the button, there is a visual clue that occurs with CSS.](/static/images/readme_markdown/hover.png)
 
 ### Accessibility
 Aspects of accessibility for everyone, including those with disabilities, were considered while making this project:
@@ -33,6 +36,7 @@ Aspects of accessibility for everyone, including those with disabilities, were c
 * The drop down menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
 * Everything is left aligned for readability.
 
+*After selecting a type and clicking the button, a single eatery is placed in the div placeholder.*
 ![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/active_reg_result.png)
 
 ### Author  
