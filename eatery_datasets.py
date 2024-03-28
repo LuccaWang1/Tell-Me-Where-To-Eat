@@ -39,7 +39,7 @@ italian = [
 
 mexican = [
     "Si Senior", 
-    "Taco Sheila's",
+    "Taco & Shell-ah's",
 ]
 
 eateries = {

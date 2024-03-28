@@ -20,20 +20,20 @@ div {
 }
 
 #button {
-    color: #FFDEAD;
-    background-color: #000066;
-    justify-content: center;
-}
-
-#button:hover {
     color: #000066;
     background-color: #FFDEAD;
     justify-content: center;
 }
 
-#button:active {
+#button:hover {
     color: #FFDEAD;
     background-color: #000066;
+    justify-content: center;
+}
+
+#button:active {
+    color: #000066;
+    background-color: #FFDEAD;
     justify-content: center;
 }
 

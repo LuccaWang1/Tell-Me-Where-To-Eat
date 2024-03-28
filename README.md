@@ -2,7 +2,7 @@
 
 # Tell Me Where To Eat
 
-![Image of homepage: This is the homepage of the web app.](/static/images/home.png)
+![Image of homepage: This is the homepage of the web app.](/static/images/readme_markdown/home2.png)
 
 ## Project Description 
 Tell Me Where To Eat provides a solution to psychological analysis paralysis and simplifying dinner decision making. 
@@ -11,7 +11,7 @@ The web app does this by allowing someone to select a type of food they are crav
 
 The full stack project was built and architected solely by Lucca Wang, who created the app from scratch, developing with Python, Flask, and JavaScript.
 
-![Image of homepage: selecting type of food from the dropdown menu](/static/images/dropdown.png)
+![Image of homepage: selecting type of food from the dropdown menu](/static/images/readme_markdown/dropdown2.png)
 
 ### Technologies Used  
 * Python (server, backend logic)
@@ -22,7 +22,7 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 * CSS (frontend, styling)
 * HTML (homepage template, rendered by Flask)
 
-![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/button_evt_json_div.png)
+![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/hover.png)
 
 ### Accessibility
 Aspects of accessibility for everyone, including those with disabilities, were considered while making this project:
@@ -32,6 +32,8 @@ Aspects of accessibility for everyone, including those with disabilities, were c
 * All the text is of the same font size and style throughout the app for readability. 
 * The drop down menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
 * Everything is left aligned for readability.
+
+![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/active_reg_result.png)
 
 ### Author  
 Lucca Wang is an American software engineer.
