@@ -8,7 +8,7 @@
 ## Project Description 
 Tell Me Where To Eat provides a solution to psychological analysis paralysis and simplifying dinner decision making. 
 
-The web app does this by allowing someone to select a type of food they are craving for their meal, or the user can leave that selection blank (not selecting a type of food), and the app will select an eatery (just one) for the person for their next meal from datasets of eateries. 
+The web app allows someone to select a type of food they are craving for their meal, or the user can leave that selection blank (not selecting a type of food), and the app will select an eatery (just one) for the person for their next meal from datasets of eateries. 
 
 The full stack project was built and architected solely by Lucca Wang, who created the app from scratch, developing with Python, Flask, and JavaScript.
 
@@ -32,12 +32,13 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 *When the user hovers over the button, there is a visual clue that occurs with CSS - the button turns the darker blue color and the usual colors are inverted*
 
 ### Accessibility
-Aspects of accessibility for everyone, including those with disabilities, were considered while making this project:
-* There is a skip navigation feature that's visually hidden but accessible to screen readers. Users who navigate the site using screen readers or keyboard shortcuts can use the link to jump directly to the main content area, improving their browser experience. 
-* ARIA (Accessible Rich Internet Applications) attributes help improve accessibility by providing additional context and cues to assistive technologies.
-* The colors are of high contrast to each other, so that people can more easily read and intake the information on the screen. It's a dark font color on a light background. It meets ADA requirements for high color contrast. 
-* The font size is large (over 19px) to enable high readability. The font size meets ADA requirements and exceeds the recommendations for website font size.
-* All the text is of the same font size and style throughout the app for cohesion, consistency, and readability. 
+I built on my knowledge of accessibility and learned so much while making this project. Here's some of what I included: 
+
+* There is a __skip navigation__ feature that's visually hidden but accessible to screen readers. Users who navigate the site using screen readers or keyboard shortcuts can use the link to jump directly to the main content area, improving their browser experience. 
+* __ARIA (Accessible Rich Internet Applications)__ attributes help improve accessibility by providing additional context and cues to assistive technologies.
+* The colors are of __high contrast__ to each other, so that people can more easily read and intake the information on the screen. It's a dark font color on a light background. It meets ADA requirements for high color contrast. 
+* The __font size__ is large (over 19px) to enable high readability. The font size meets ADA requirements and exceeds the recommendations for website font size.
+* All the text is of the same font size and style throughout the app for __cohesion, consistency, and readability__. 
 * The drop down menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
 * Everything is left aligned for readability.
 * All images have captions.
