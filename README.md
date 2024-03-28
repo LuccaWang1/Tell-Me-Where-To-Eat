@@ -35,6 +35,7 @@ Aspects of accessibility for everyone, including those with disabilities, were c
 * All the text is of the same font size and style throughout the app for readability. 
 * The drop down menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
 * Everything is left aligned for readability.
+* There are captions to every image in this README. 
 
 ![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/active_reg_result.png)
 *After selecting a type of food - or not - and clicking the button, a single eatery is placed in the div container.*
