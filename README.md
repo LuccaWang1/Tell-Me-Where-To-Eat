@@ -12,6 +12,7 @@ The web app does this by allowing someone to select a type of food they are crav
 
 The full stack project was built and architected solely by Lucca Wang, who created the app from scratch, developing with Python, Flask, and JavaScript.
 
+<br><br>
 
 Users can select a type of food from the dropdown menu:
 ![Image of homepage: Users can select a type of food from the dropdown menu.](/static/images/readme_markdown/dropdown2.png)
@@ -25,6 +26,7 @@ Users can select a type of food from the dropdown menu:
 * CSS (frontend, styling)
 * HTML (homepage template, rendered by Flask)
 
+<br><br>
 
 When the user hovers over the button, there is a visual clue that occurs with CSS - the button turns the darker blue color and the usual colors are inverted:
 ![Image of homepage: When the user hovers over the button, there is a visual clue that occurs with CSS.](/static/images/readme_markdown/hover.png)
@@ -39,6 +41,7 @@ Aspects of accessibility for everyone, including those with disabilities, were c
 * Everything is left aligned for readability.
 * There are captions to every image in this README. 
 
+<br><br>
 
 After selecting a type of food - or not - and clicking the button, a single eatery is placed in the div container:
 ![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/active_reg_result.png)
