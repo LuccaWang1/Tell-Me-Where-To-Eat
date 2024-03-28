@@ -39,7 +39,7 @@ Aspects of accessibility for everyone, including those with disabilities, were c
 * All the text is of the same font size and style throughout the app for readability. 
 * The drop down menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
 * Everything is left aligned for readability.
-* There are captions to every image in this README. 
+* There is information about each image in this README. 
 
 <br>
 
