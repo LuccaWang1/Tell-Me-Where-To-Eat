@@ -2,8 +2,8 @@
 
 # Tell Me Where To Eat
 
-This is the homepage of the web app:
 ![Image of homepage: This is the homepage of the web app.](/static/images/readme_markdown/home2.png)
+*This is the homepage of the web app*
 
 ## Project Description 
 Tell Me Where To Eat provides a solution to psychological analysis paralysis and simplifying dinner decision making. 
@@ -14,8 +14,8 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 
 <br>
 
-Users can select a type of food from the dropdown menu:
 ![Image of homepage: Users can select a type of food from the dropdown menu.](/static/images/readme_markdown/dropdown2.png)
+*Users can select a type of food from the dropdown menu*
 
 ### Technologies Used  
 * Python (server, backend logic)
@@ -28,24 +28,24 @@ Users can select a type of food from the dropdown menu:
 
 <br>
 
-When the user hovers over the button, there is a visual clue that occurs with CSS - the button turns the darker blue color and the usual colors are inverted:
 ![Image of homepage: When the user hovers over the button, there is a visual clue that occurs with CSS.](/static/images/readme_markdown/hover.png)
+*When the user hovers over the button, there is a visual clue that occurs with CSS - the button turns the darker blue color and the usual colors are inverted*
 
 ### Accessibility
 Aspects of accessibility for everyone, including those with disabilities, were considered while making this project:
+* There is a skip navigation feature that's visually hidden but accessible to screen readers. Users who navigate the site using screen readers or keyboard shortcuts can use the link to jump directly to the main content area, improving their browser experience. 
 * ARIA (Accessible Rich Internet Applications) attributes help improve accessibility by providing additional context and cues to assistive technologies.
-* The colors are of high contrast to each other, so that people can more easily read and intake the information on the screen. It's a dark font color on a light background. It meets ADA regulations for high color contrast. 
-* The font size is large (over 19px) to enable high readability. The font size exceeds ADA recommendations for website font size.
-* All the text is of the same font size and style throughout the app for readability. 
+* The colors are of high contrast to each other, so that people can more easily read and intake the information on the screen. It's a dark font color on a light background. It meets ADA requirements for high color contrast. 
+* The font size is large (over 19px) to enable high readability. The font size meets ADA requirements and exceeds the recommendations for website font size.
+* All the text is of the same font size and style throughout the app for cohesion, consistency, and readability. 
 * The drop down menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
 * Everything is left aligned for readability.
-* There is information about each image in this README.
-* There is a skip navigation feature that's visually hidden but accessible to screen readers. Users who navigate the site using screen readers or keyboard shortcuts can use the link to jump directly to the main content area, improving their browser experience. 
+* All images have captions.
 
 <br>
 
-After selecting a type of food - or not - and clicking the button, a single eatery is placed in the div container:
 ![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/active_reg_result.png)
+*After selecting a type of food - or not - and clicking the button, a single eatery is placed in the div container*
 
 ### Author  
 Lucca Wang is an American software engineer.
