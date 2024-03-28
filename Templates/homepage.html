@@ -8,29 +8,33 @@
         <link href="static/css/eateries.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-            <p>Welcome to <strong>Tell Me Where To Eat!</strong></p>
+        <header>
+            <h1>Welcome to <strong>Tell Me Where To Eat!</strong></h1>
+        </header>
 
-                <form id="form">
-                    <label for="choice">Want a certain type of food today?</label>
-                        <select name="choice" id="eatery-preference">
-                            <option value="">Select</option>
-                            <option class="dropdown-content" value="american">American</option>
-                            <option class="dropdown-content" value="asian">Asian</option>
-                            <option class="dropdown-content" value="breakfast">Breakfast</option>
-                            <option class="dropdown-content" value="desert">Desert</option>
-                            <option class="dropdown-content" value="fast_food">Fast Food</option>
-                            <option class="dropdown-content" value="italian">Italian</option>
-                            <option class="dropdown-content" value="mexican">Mexican</option> 
-                        </select>
-                        
-                        <p></p>
+        <main>
+            <form id="form" aria-labelledby="form-heading">
+                <label for="choice">Want a certain type of food today?</label>
+                    <select name="choice" id="eatery-preference" aria-label="Select a type of food">
+                        <option value="">Select</option>
+                        <option class="dropdown-content" value="american">American</option>
+                        <option class="dropdown-content" value="asian">Asian</option>
+                        <option class="dropdown-content" value="breakfast">Breakfast</option>
+                        <option class="dropdown-content" value="desert">Desert</option>
+                        <option class="dropdown-content" value="fast_food">Fast Food</option>
+                        <option class="dropdown-content" value="italian">Italian</option>
+                        <option class="dropdown-content" value="mexican">Mexican</option> 
+                    </select>
+                    
+                    <p></p>
 
-                        <button type="submit" id="button">Tell Me</button>
-                </form>
+                    <button type="submit" id="button">Tell Me</button>
+            </form>
+        </main>
 
             <p></p>
 
-            <div id="eatery-result-container"></div>
+            <div id="eatery-result-container" aria-live="polite" aria-atomic="true"></div>
         
         <script src="/static/js/button.js"></script>
     </body>

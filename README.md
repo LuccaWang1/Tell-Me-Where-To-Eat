@@ -2,9 +2,9 @@
 
 # Tell Me Where To Eat
 
-![Image of homepage: selecting type of food from the dropdown menu](/static/images/home.png)
+![Image of homepage: This is the homepage of the web app.](/static/images/home.png)
 
-### Project Description 
+## Project Description 
 Tell Me Where To Eat provides a solution to psychological analysis paralysis and simplifying dinner decision making. 
 
 The web app does this by allowing someone to select a type of food they are craving for their meal, or the user can leave that selection blank (not selecting a type of food), and the app will select an eatery (just one) for the person for their next meal from datasets of eateries. 
@@ -19,10 +19,19 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 * JavaScript (frontend)
 * Python's random module (in server used in backend logic) 
 * Datasets of real eateries (py file, imported into server for backend logic)
-* CSS (frontend styling)
+* CSS (frontend, styling)
 * HTML (homepage template, rendered by Flask)
 
-![Image of homepage: after selecting a type and clicking the button, a single eatery is placed in the div placeholder](/static/images/button_evt_json_div.png)
+![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/button_evt_json_div.png)
+
+### Accessibility
+Aspects of accessibility for everyone, including those with disabilities, were considered while making this project:
+* ARIA (Accessible Rich Internet Applications) attributes help improve accessibility by providing additional context and cues to assistive technologies.
+* The colors are of high contrast to each other, so that people can more easily read and intake the information on the screen. It's a dark font color on a light background. It meets ADA regulations for high color contrast. 
+* The font size is large (over 19px) to enable high readability. The font size exceeds ADA recommendations for website font size.
+* All the text is of the same font size and style throughout the app for readability. 
+* The drop down menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
+* Everything is left aligned for readability.
 
 ### Author  
 Lucca Wang is an American software engineer.
