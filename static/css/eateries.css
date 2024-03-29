@@ -16,29 +16,28 @@ Dark Blue: #000066 */
 div {
     height: 60px;
     width: 50%;
-    background-color: #FFDEAD;
 }
 
 #button {
     color: #000066;
-    background-color: #FFDEAD;
+    background-color: #FFE5B4;
     justify-content: center;
 }
 
 #button:hover {
-    color: #FFDEAD;
+    color: #FFE5B4;
     background-color: #000066;
     justify-content: center;
 }
 
 #button:active {
     color: #000066;
-    background-color: #FFDEAD;
+    background-color: #FFE5B4;
     justify-content: center;
 }
 
 select {
-    color: #FFDEAD;
+    color: #FFE5B4;
     background-color: #000066;
     justify-content: center;
 }
