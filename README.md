@@ -17,7 +17,7 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 ![Image of homepage: Users can select a type of food from the dropdown menu.](/static/images/readme_markdown/dropdown2.png)
 *Users can select a type of food from the dropdown menu*
 
-### Technologies Used  
+### Technologies  
 * Python (server, backend logic)
 * Flask (Python framework)
 * JavaScript (frontend)
@@ -28,7 +28,7 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 
 <br>
 
-![Image of homepage: When the user hovers over the button, there is a visual clue that occurs with CSS.](/static/images/readme_markdown/hover.png)
+![Image of Homepage: When the user hovers over the button, there is a visual clue that occurs with CSS.](/static/images/readme_markdown/hover.png)
 *When the user hovers over the button, there is a visual clue that occurs with CSS - the button turns the darker blue color and the usual colors are inverted*
 
 ### Accessibility
@@ -39,14 +39,16 @@ I built on my knowledge of accessibility and learned so much while making this p
 * The colors are of __high contrast__ to each other, so that people can more easily read and intake the information on the screen. It's a dark font color on a light background. It meets ADA requirements for high color contrast. 
 * The __font size__ is large (over 19px) to enable high readability. The font size meets ADA requirements and exceeds the recommendations for website font size.
 * All the text is of the same font size and style throughout the app for __cohesion, consistency, and readability__. 
-* The drop down menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
+* The dropdown menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
 * Everything is left aligned for readability.
 * All images have captions.
 
 <br>
 
 ![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/active_reg_result.png)
-*After selecting a type of food - or not - and clicking the button, a single eatery is placed in the div container*
+*After selecting a type of food - or not - and clicking the button, a single eatery is placed in the `div` container*
+
+<br>
 
 ### Author  
 Lucca Wang is an American software engineer.
