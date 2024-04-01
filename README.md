@@ -5,6 +5,8 @@
 ![Image of homepage: This is the homepage of the web app.](/static/images/readme_markdown/home.png)
 *This is the homepage of the web app*
 
+<br>
+
 ## Project Description 
 Tell Me Where To Eat provides a solution to psychological analysis paralysis and simplifying dinner decision making. 
 
@@ -26,6 +28,8 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 ![Image of homepage: Users can select a type of food from the dropdown menu.](/static/images/readme_markdown/dropdown.png)
 *Users can select a type of food from the dropdown menu*
 
+<br>
+
 ### Technologies  
 * Python (server, backend logic)
 * Flask (Python framework)
@@ -39,6 +43,8 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 
 ![Image of Homepage: When the user hovers over the button, there is a visual clue that occurs with CSS.](/static/images/readme_markdown/button_hover.png)
 *When the user hovers over the button, there is a visual clue that occurs with CSS - the button turns the darker blue color and the usual colors are inverted*
+
+<br>
 
 ### Accessibility
 I built on my knowledge of accessibility and learned so much while making this project. Here's some of what I included: 
@@ -62,5 +68,6 @@ I built on my knowledge of accessibility and learned so much while making this p
 ### Author  
 Lucca Wang is an American software engineer.
 
+<br>
 
 [Back to Top](#top)
