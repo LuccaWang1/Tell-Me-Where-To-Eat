@@ -14,6 +14,15 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 
 <br>
 
+## Snapshot
+
+* Full stack web app built from scratch, providing a solution to psychological analysis paralysis, simplifying decision making.
+* Created dynamic content generation with Python's random module and logic. 
+* Increased my knowledge of website accessibility by implementing skip navigation, ARIA, and exceeding ADA requirements.
+* Utilized Flask's template rendering, JavaScript's event listening actions, and CSS.
+
+<br>
+
 ![Image of homepage: Users can select a type of food from the dropdown menu.](/static/images/readme_markdown/dropdown.png)
 *Users can select a type of food from the dropdown menu*
 
