@@ -66,7 +66,7 @@ I built on my knowledge of accessibility and learned so much while making this p
 <br>
 
 ### Author  
-Lucca Wang is an American software engineer.
+Hi, my name is Lucca Wang, and I'm a software engineer. Feel free to connect on [LinkedIn](https://www.linkedin.com/in/luccawang/)!
 
 <br>
 
