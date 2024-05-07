@@ -1,0 +1,144 @@
+/* CSS styles */
+
+/* accessibility skip navigation for screen readers */
+#skip-nav {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* all */
+main, select, button {
+    font-size: 40px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+main { /* make child element stack vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center within container */
+    margin: 0 20px; /* 0 top/bottom, 20 sides */
+}
+
+/* all child elements of main (including select, button, divs) */
+main > * {
+    margin: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box; /* ensures consistent sizing, width & height, padding & border in each element */
+}
+
+/* for the select & button elements */
+select, button {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* custom css for dropdown menu, bc styling can be tricky w/ browsers */
+.custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-select {
+    position: relative;
+    width: 100%
+}
+
+.custom-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -mox-appearance: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.custom-select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+button {
+    margin-top: 20px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+button:active {
+    color: black;
+    background-color: white;
+}
+
+/* for container holder result (of clicking button and perhaps the selection of select element if user selected something */
+div {
+    height: 50px;
+    width: 50%;
+}
+
+/* responsive to diff. screen sizes, not full screen, almost email */
+@media screen and (max-width: 768px) {
+    main {
+        align-items: left; /* center align items on smaller screens or if width reduced */
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    select, button, div {
+        font-size: 25px;
+    }
+}
+
+/* responsive to diff. screen sizes, small, mobile devices */
+@media screen and (max-width: 690px) {
+    main {
+        align-items: left; /* center align items on smaller screens or if width reduced */
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    select, button, div {
+        font-size: 20px;
+    }
+}
+
+/* responsive to diff. screen sizes, small, mobile devices */
+@media screen and (max-width: 400px) {
+    main {
+        align-items: left; /* center align items on smaller screens or if width reduced */
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    select, button, div {
+        font-size: 19px;
+    }
+}
