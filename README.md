@@ -2,8 +2,8 @@
 
 # Tell Me Where To Eat
 
-![Image of homepage: This is the homepage of the web app.](/static/images/readme_markdown/home.png)
-*This is the homepage of the web app*
+![Image of homepage: The homepage of the web app.](/static/images/readme_markdown/tellmewheretoeat.png)
+*This is the homepage - and only page - of the web app*
 
 <br>
 
@@ -25,11 +25,6 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 
 <br>
 
-![Image of homepage: Users can select a type of food from the dropdown menu.](/static/images/readme_markdown/dropdown.png)
-*Users can select a type of food from the dropdown menu*
-
-<br>
-
 ### Technologies  
 * Python (server, backend logic)
 * Flask (Python framework)
@@ -38,11 +33,6 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 * Datasets of real eateries (py file, imported into server for backend logic)
 * CSS (frontend, styling)
 * HTML (homepage template, rendered by Flask)
-
-<br>
-
-![Image of Homepage: When the user hovers over the button, there is a visual clue that occurs with CSS.](/static/images/readme_markdown/button_hover.png)
-*When the user hovers over the button, there is a visual clue that occurs with CSS - the button turns the darker blue color and the usual colors are inverted*
 
 <br>
 
@@ -57,11 +47,6 @@ I built on my knowledge of accessibility and learned so much while making this p
 * The dropdown menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability. 
 * Everything is left aligned for readability.
 * All images have captions.
-
-<br>
-
-![Image of homepage: After selecting a type and clicking the button, a single eatery is placed in the div placeholder.](/static/images/readme_markdown/result.png)
-*After selecting a type of food - or not - and clicking the button, a single eatery is placed in the `div` container*
 
 <br>
 
