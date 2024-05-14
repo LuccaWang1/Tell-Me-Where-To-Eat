@@ -27,43 +27,37 @@
         </header>
 
         <main>
-            <h1>Welcome to Tell Me Where To Eat!</h1>
+            <div>
+                <h1>Welcome to <br>
+                    Tell Me Where To Eat!</h1>
 
-            <!-- applying custom css to form & special div for dropdown menu as opposed to default settings in browsers if i can help it -->
-            <form aria-labelledby="form-heading" class="custom-form">
-
-                <div class="custom-select">
-                    
-                    <select name="choice" aria-label="Select a type of food">
-
-                        <option value="">I want a certain type of food</option>
+                <!-- applying custom css to form & special div for dropdown menu as opposed to default settings in browsers if i can help it -->
+                
+                <div style="display: inline-block;">
+                <!-- id "form" in line directly below used in button.js - take selection or no selection, sends fetch request to python, receives data, and put it in the div below -->
+                    <form id="form" aria-labelledby="form-heading" class="custom-form">
                         
-                        <option class="dropdown-content" value="american">American</option>
-                        
-                        <option class="dropdown-content" value="asian">Asian</option>
-                        
-                        <option class="dropdown-content" value="breakfast">Breakfast</option>
-                        
-                        <option class="dropdown-content" value="desert">Desert</option>
-                        
-                        <option class="dropdown-content" value="fast_food">Fast Food</option>
-                        
-                        <option class="dropdown-content" value="italian">Italian</option>
-                        
-                        <option class="dropdown-content" value="mexican">Mexican</option> 
-                    </select>
+                        <!-- label for the select dropdown, allows screen readers and other assistive technologies to associate the label with the form control for accessibility and usability -->
+                        <label for="eatery-preference"></label>
+                        <select name="eatery-preference" id="eatery-preference" aria-label="Select a type of food">
+                            <option class="option" value="">Type of food</option>
+                            <option class="option" value="american">American</option>
+                            <option class="option" value="asian">Asian</option>
+                            <option class="option" value="breakfast">Breakfast</option>
+                            <option class="option" value="desert">Desert</option>
+                            <option class="option" value="fast_food">Fast Food</option>
+                            <option class="option" value="italian">Italian</option>
+                            <option class="option" value="mexican">Mexican</option> 
+                        </select>
+                        <button type="submit">Tell Me</button>
+                    </form>
                 </div>
-                        
-                <p></p>
 
-                <button type="submit">Tell Me</button>
-            </form>
+                <div id="eatery-result-container" aria-live="polite" aria-atomic="true"></div>
+            </div>
 
-            <p></p>
-
-            <div aria-live="polite" aria-atomic="true"></div>
+            <!-- using javascript, because i'm using js to place the result of the python logic in the div box for the user - instead of just going from html to python server - we need to see the result, so js handles taking the data from server and placing it on the dom -->
+            <script type="text/javascript" src="/static/js/button.js"></script>
         </main>
-
-        <script src="/static/js/button.js"></script>
     </body>
 </html>

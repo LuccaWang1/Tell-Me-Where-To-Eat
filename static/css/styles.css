@@ -11,6 +11,13 @@
 }
 
 /* all */
+html, body {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main, select, button {
     font-size: 40px;
     font-family: "Poetsen One", sans-serif;
@@ -22,15 +29,32 @@ main { /* make child element stack vertically */
     display: flex;
     flex-direction: column;
     align-items: center; /* center within container */
-    margin: 0 20px; /* 0 top/bottom, 20 sides */
+    text-align: center;
 }
 
 /* all child elements of main (including select, button, divs) */
 main > * {
-    margin: 20px;
-    margin-bottom: 20px;
-    width: 100%;
     box-sizing: border-box; /* ensures consistent sizing, width & height, padding & border in each element */
+}
+
+/* body main container with all in it */
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container div {
+    display: block;
+    width: 100%;
+}
+
+/* div w/ result of button click */
+#eatery-result-container {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    /* text-decoration: underline;
+    text-decoration-thickness: 5px solid black; */
 }
 
 /* for the select & button elements */
@@ -40,36 +64,10 @@ select, button {
     border: 2px solid black;
 }
 
-/* custom css for dropdown menu, bc styling can be tricky w/ browsers */
-.custom-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.custom-select {
-    position: relative;
-    width: 100%
-}
-
-.custom-select select {
-    appearance: none;
-    -webkit-appearance: none;
-    -mox-appearance: none;
-    width: 100%;
-    padding: 10px;
-}
-
-.custom-select::after {
-    content: '\25BC';
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-
 button {
     margin-top: 20px;
+    margin-bottom: 20px;
+    transition: color 0.4s, background-color 0.4s;
 }
 
 button:hover {
@@ -82,63 +80,64 @@ button:active {
     background-color: white;
 }
 
-/* for container holder result (of clicking button and perhaps the selection of select element if user selected something */
-div {
-    height: 50px;
-    width: 50%;
+h1 {
+    margin: 0px;
+    padding: 0px;
 }
 
 /* responsive to diff. screen sizes, not full screen, almost email */
-@media screen and (max-width: 768px) {
-    main {
-        align-items: left; /* center align items on smaller screens or if width reduced */
-    }
-
+@media screen and (max-width: 800px) {
     h1 {
-        font-size: 35px;
+        font-size: 60px;
+        margin-bottom: 15px;
     }
 
     select, button, div {
-        font-size: 25px;
+        font-size: 40px;
+    }
+
+    /* result container */
+    div {
+        height: 50px;
+        width: 70%;
     }
 }
 
 /* responsive to diff. screen sizes, small, mobile devices */
 @media screen and (max-width: 690px) {
-    main {
-        align-items: left; /* center align items on smaller screens or if width reduced */
-        margin: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
 
     select, button, div {
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    /* result container */
+    div {
+        height: 40px;
+        width: 80%;
     }
 }
 
 /* responsive to diff. screen sizes, small, mobile devices */
 @media screen and (max-width: 400px) {
-    main {
-        align-items: left; /* center align items on smaller screens or if width reduced */
-        margin: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     select, button, div {
-        font-size: 19px;
+        font-size: 15px;
+    }
+
+    /* result container */
+    div {
+        height: 25px;
+        width: 90%;
+    }
+
+    .custom-form select option {
+        /* words break wrapping onto next line */
+        word-break: break-word;
     }
 }
