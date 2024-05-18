@@ -2,8 +2,13 @@
 
 # Tell Me Where To Eat
 
-![Image of tell me where to eat web app's homepage - opening](/static/images/readme_markdown/Screenshot-1-opening.png)
-_This is the homepage - and only page - of the web app. __All body main content is in one div to standardize the styling and alignment__. I employed components of __accessibility__, like __simplifying the UI for the UX__, __high contrast__, and __large font sizes__, as well as __skip navigation and ARIA for screen readers___
+<p align="center">
+    <img src="static/images/readme_markdown/Screenshot-1-opening.png" alt="This is the homepage of the app.">
+    <br>
+    <em>This is the homepage - and only page - of the web app. All <strong>body main content is in one div container to standardize the styling and alignment</strong>. I employed components of <strong>accessibility</strong>, like <strong>simplifying the UI for the UX</strong>, <strong>high contrast</strong>, and <strong>large font sizes</strong>, as well as <strong>skip navigation and ARIA for screen readers.</strong></em>
+</p>
+
+
 
 ## Project Description 
 Tell Me Where To Eat __provides a solution to psychological analysis paralysis and simplifying dinner decision making__. 
@@ -14,8 +19,11 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 
 <br>
 
-![Image of tell me where to eat web app's homepage - dropdown menu](/static/images/readme_markdown/Screenshot-2-dropdown.png)
-_The user can select from the __HTML__ dropdown or not for a food preference. The selection or no selection (if the user doesn't select one from the dropdown menu) is sent from the HTML form to the __Python server view function__. I imported the Python's __Random module__ and set up the Python logic to either select from all options if there is no selection or from the options within each food category type if there is a selection from the dropdown menu_
+<p align="center">
+    <img src="static/images/readme_markdown/Screenshot-2-dropdown.png" alt="The user can select a type of food if they have a preference at the time they are using the app.">
+    <br>
+    <em>The user can select from the <strong>HTML</strong> dropdown or not for a food preference. The selection or no selection (if the user doesn't select one from the dropdown menu) is sent from the HTML form to the <strong>Python server view function</strong>. I imported the <strong>Python's Random module</strong> and set up the Python logic to either select from all options if there is no selection or from the options within each food category type if there is a selection from the dropdown menu.</em>
+</p>
 
 ## Snapshot
 
@@ -26,8 +34,11 @@ _The user can select from the __HTML__ dropdown or not for a food preference. Th
 
 <br>
 
-![Image of tell me where to eat web app's homepage - hover and click(active) the button](/static/images/readme_markdown/Screenshot-3-hover-click-button.png)
-_There is __hover and active CSS__ on the "Tell Me" __button__ that indicates to the user that the website is receptive to them. The click of the button and the next step/action (placing the result in a below div) are handled by JavaScript._
+<p align="center">
+    <img src="static/images/readme_markdown/Screenshot-3-hover-click-button.png" alt="The user clicks the 'Tell Me' button to see their resulting eatery. As they click, the hover and active CSS can be seen in the viewport.">
+    <br>
+    <em>There is <strong>hover and active CSS</strong> on the "Tell Me" <strong>button</strong> that indicates to the user that the website is receptive to them. The click of the button and the next step/action (placing the result in a below div) are <strong>handled by JavaScript.</strong></em>
+</p>
 
 ### Technologies  
 * __Python__ (server, backend logic, Random module's Choice method)
@@ -41,8 +52,11 @@ _There is __hover and active CSS__ on the "Tell Me" __button__ that indicates to
 
 <br>
 
-![Image of tell me where to eat web app's homepage - dropdown menu](/static/images/readme_markdown/Screenshot-4-res-in-div.png)
-_After the user clicks the "Tell Me" button, the __JavaScript__ event listener is activated and the __client sends a request to the server__. The __Python logic uses the Random module's Choice method__ to select an eatery. __After the server response, the JS places the resulting eatery into the div that has the unique id in the html div element__. The styling of font family, size, and color remain consistent with the rest of the page thanks to the standarization I implemented for the HTML template and CSS_
+<p align="center">
+    <img src="static/images/readme_markdown/Screenshot-4-res-in-div.png" alt="The user can see the resulting eatery in the div directly below.">
+    <br>
+    <em>After the user clicks the "Tell Me" button, the <strong>JavaScript event listener</strong> is activated and the <strong>client sends a request to the server</strong>. The <strong>Python logic uses the Random module's Choice method</strong> to select an eatery. <strong>After the server response, the JS places the resulting eatery into the div that has the unique id in the html div element</strong>. The styling of font family, size, and color remain consistent with the rest of the page thanks to the standarization I implemented for the HTML template and CSS.</em>
+</p>
 
 ### Accessibility
 I built on my knowledge of accessibility and learned so much while making this project. Here's some of what I included: 
