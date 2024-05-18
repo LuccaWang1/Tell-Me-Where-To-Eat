@@ -2,10 +2,8 @@
 
 # Tell Me Where To Eat
 
-![Image of homepage: The homepage of the web app.](/static/images/readme_markdown/tellmewheretoeat.png)
-*This is the homepage - and only page - of the web app*
-
-<br>
+![Image of tell me where to eat web app's homepage - opening](/static/images/readme_markdown/Screenshot-1-opening.png)
+*This is the homepage - and only page - of the web app. All body main content is in one div to standardize the styling and alignment. I employed components of accessibility, like simplifying the UI for the UX, high contrast, and large font sizes, as well as skip navigation and ARIA for screen readers*
 
 ## Project Description 
 Tell Me Where To Eat provides a solution to psychological analysis paralysis and simplifying dinner decision making. 
@@ -16,6 +14,9 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 
 <br>
 
+![Image of tell me where to eat web app's homepage - dropdown menu](/static/images/readme_markdown/Screenshot-2-dropdown.png)
+*The user can select from the HTML dropdown or not for a food preference. The selection or no selection (if the user doesn't select one from the dropdown menu) is sent from the HTML form to the Python server view function. I imported the Python's Random module and set up the Python logic to either select from all options if there is no selection or from the options within each food category type if there is a selection from the dropdown menu*
+
 ## Snapshot
 
 * Full stack web app built from scratch, providing a solution to psychological analysis paralysis, simplifying decision making.
@@ -25,16 +26,23 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 
 <br>
 
+![Image of tell me where to eat web app's homepage - hover and click(active) the button](/static/images/readme_markdown/Screenshot-3-hover-click-button.png)
+*There is hover and active CSS on the "Tell Me" button that indicates to the user that the website is receptive to them. The click of the button and the next step/action (placing the result in a below div) are handled by JavaScript.*
+
 ### Technologies  
-* Python (server, backend logic)
-* Flask (Python framework)
-* JavaScript (frontend)
-* Python's random module (in server used in backend logic) 
-* Datasets of real eateries (py file, imported into server for backend logic)
+* Python (server, backend logic, Random module's Choice method)
+* Canva (used for the image screenshot in this README document)
 * CSS (frontend, styling)
+* Datasets of real eateries (a dictionary of dictionaries imported to the server)
+* Flask (Python framework)
+* Google Font API
 * HTML (homepage template, rendered by Flask)
+* JavaScript (frontend)
 
 <br>
+
+![Image of tell me where to eat web app's homepage - dropdown menu](/static/images/readme_markdown/Screenshot-4-res-in-div.png)
+*After the user clicks the "Tell Me" button, the JavaScript event listener is activated and the client sends a request to the server. The Python logic uses the Random module's Choice method to select an eatery. After the server response, the JS places the resulting eatery into the div that has the unique id in the html div element. The styling of font family, size, and color remain consistent with the rest of the page thanks to the standarization I implemented for the HTML template and CSS*
 
 ### Accessibility
 I built on my knowledge of accessibility and learned so much while making this project. Here's some of what I included: 
