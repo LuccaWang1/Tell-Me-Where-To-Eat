@@ -5,7 +5,7 @@
 <p align="center">
     <img src="static/images/readme_markdown/Screenshot-1-opening.png" alt="This is the homepage of the app.">
     <br>
-    <em>This is the homepage - and only page - of the web app. All <strong>body main content is in one div container to standardize the styling and alignment</strong>. I employed components of <strong>accessibility</strong>, like <strong>simplifying the UI for the UX</strong>, <strong>high contrast</strong>, and <strong>large font sizes</strong>, as well as <strong>skip navigation and ARIA for screen readers</strong></em>
+    <em>This is the homepage - and only page - of the web app. All <strong>body main content is in one div container to standardize the styling and alignment</strong>. I employed components of <strong>accessibility</strong>, like <strong>simplifying the UI for the UX</strong>, <strong>high contrast</strong>, and <strong>large font sizes</strong>, as well as <strong>skip navigation and ARIA for screen readers.</strong></em>
 </p>
 
 
@@ -22,7 +22,7 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 <p align="center">
     <img src="static/images/readme_markdown/Screenshot-2-dropdown.png" alt="The user can select a type of food if they have a preference at the time they are using the app.">
     <br>
-    <em>The user can select from the <strong>HTML</strong> dropdown or not for a food preference. The selection or no selection (if the user doesn't select one from the dropdown menu) is sent from the HTML form to the <strong>Python server view function</strong>. I imported the <strong>Python's Random module</strong> and set up the Python logic to either select from all options if there is no selection or from the options within each food category type if there is a selection from the dropdown menu</em>
+    <em>The user can select from the <strong>HTML</strong> dropdown or not for a food preference. The selection or no selection (if the user doesn't select one from the dropdown menu) is sent from the HTML form to the <strong>Python server view function</strong>. I imported the <strong>Python's Random module</strong> and set up the Python logic to either select from all options if there is no selection or from the options within each food category type if there is a selection from the dropdown menu.</em>
 </p>
 
 ## Snapshot
@@ -55,7 +55,7 @@ The full stack project was built and architected solely by Lucca Wang, who creat
 <p align="center">
     <img src="static/images/readme_markdown/Screenshot-4-res-in-div.png" alt="The user can see the resulting eatery in the div directly below.">
     <br>
-    <em>After the user clicks the "Tell Me" button, the <strong>JavaScript event listener</strong> is activated and the <strong>client sends a request to the server</strong>. The <strong>Python logic uses the Random module's Choice method</strong> to select an eatery. <strong>After the server response, the JS places the resulting eatery into the div that has the unique id in the html div element</strong>. The styling of font family, size, and color remain consistent with the rest of the page thanks to the standarization I implemented for the HTML template and CSS</em>
+    <em>After the user clicks the "Tell Me" button, the <strong>JavaScript event listener</strong> is activated and the <strong>client sends a request to the server</strong>. The <strong>Python logic uses the Random module's Choice method</strong> to select an eatery. <strong>After the server response, the JS places the resulting eatery into the div that has the unique id in the html div element</strong>. The styling of font family, size, and color remain consistent with the rest of the page thanks to the standarization I implemented for the HTML template and CSS.</em>
 </p>
 
 ### Accessibility
