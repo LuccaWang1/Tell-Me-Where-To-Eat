@@ -2,18 +2,18 @@
 
 # Let's Eat
 
-![Let's Eat app by Lucca Wang](/static/images/readme_markdown/LetsEat-webapp.gif)
+[![Let's Eat app by Lucca Wang](/static/images/readme_markdown/LetsEat-webapp.gif)](#project-description)
 
 ## Project Description 
-__Let's Eat__ provides a solution to psychological analysis paralysis (the pyschology term for when we have too many options that we freeze without being able to choose one). Simply put, __this app helps you decide where to eat quickly, with a click of a button!__
+__Let's Eat__ provides a solution to [psychological analysis paralysis (the pyschology term for when we have too many options that we freeze without being able to choose one)](https://health.clevelandclinic.org/analysis-paralysis). Simply put, __this app helps you decide where to eat quickly, with a click of a button!__
 
 The user selects a type of food, or can chose not to select a type of food. 
 
 The app then selects an eatery from provided datasets of eateries and outputs one eatery as the result, which is placed into a div shown in the viewport. 
 
-This is a full-stack project built and architected by Lucca Wang. 
+This is a full-stack project built and architected by [Lucca Wang](#author). 
 
-Wang built the app from scratch, developing with __Python, Flask, JavaScript, Google Font API__, and more.
+Wang built the app from scratch, [developing with __Python, Flask, JavaScript, Google Font API__, and more](#technologies).
 
 <br>
 
@@ -21,27 +21,28 @@ Wang built the app from scratch, developing with __Python, Flask, JavaScript, Go
 
 ## Snapshot of Project
 
-* Full-stack web app built from scratch, providing a solution to psychological analysis paralysis, simplifying decision making.
+* __Full-stack web app built from scratch__, providing a solution to psychological analysis paralysis, simplifying decision making.
 
-* Dynamic content generation with Python's random module and logic. 
+* [__Dynamic content generation with Python's random module and logic__.](#project-description) 
 
-* Uses accessibility with skip navigation, ARIA, and exceeding ADA requirements.
+* Uses [__accessibility with skip navigation, ARIA, and exceeding ADA requirements__](#accessibility).
 
-* Utilizes Python's framework Flask for template (webpage) rendering, JavaScript's event listening actions, and an API to enhance the font style and family.
+* Utilizes [__Python's framework Flask__ for template (webpage) rendering, __JavaScript's event listening actions__, and an __API__ to enhance the font style and family.](#technologies)
 
 <br>
 
 [Back to Top](#top)
 
 ### Technologies  
-* __Python__ (server, backend logic, Random module's Choice method)
-* __Canva__ (used for the image screenshot in this README document)
+* [__Python__ (server, backend logic, Random module's Choice method)](#snapshot-of-project)
+* [__Flask__ (Python framework)](#snapshot-of-project)
+* [__JavaScript__ (frontend)](#snapshot-of-project)
+* [__Canva__ (used for the image in this README document)](#lets-eat)
 * __CSS__ (frontend, styling)
 * __Datasets__ of real eateries (__a dictionary of dictionaries imported to the server__)
-* Flask (__Python framework__)
-* __Google Font API__
+* [__Google Fonts API__](#lets-eat)
 * __HTML__ (homepage template, rendered by Flask)
-* __JavaScript__ (frontend)
+
 
 <br>
 
@@ -56,18 +57,16 @@ Wang built the app from scratch, developing with __Python, Flask, JavaScript, Go
 
 * The __font size__ is large (over 19px) to enable high readability. The font size __meets ADA requirements__ and exceeds the recommendations for website font size.
 
-* All the text is of the same font size and style throughout the app for __cohesion, consistency, and readability__. 
+* There is __consistent__ font size and style throughout the app for __cohesion that improves readability__. 
 
-* The dropdown menu of items to select is the same font size as the rest of the text on the page for __cohesion, consistency, and readability__.
-
-* All images in this documentation have captions also for accessibility purposes.
+* The dropdown menu of items to select is the same font size as the rest of the text on the page for cohesion, consistency, and readability.
 
 <br>
 
 [Back to Top](#top)
 
 ### Author  
-Hi, my name is Lucca Wang, and I'm a software engineer. Feel free to connect on [LinkedIn](https://www.linkedin.com/in/luccawang/)!
+Hi, my name is Lucca Wang, and I'm a software engineer. Visit my [website](https://luccawang.dev) I hand built at [https://luccawang.dev](https://luccawang.dev). Feel free to connect on [LinkedIn](https://www.linkedin.com/in/luccawang/)!
 
 <br>
 
