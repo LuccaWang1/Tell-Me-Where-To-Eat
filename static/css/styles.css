@@ -83,6 +83,7 @@ button:active {
 h1 {
     margin: 0px;
     padding: 0px;
+    margin-bottom: 30px;
 }
 
 /* responsive to diff. screen sizes, not full screen, almost email */
