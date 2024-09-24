@@ -12,14 +12,16 @@
 
 /* all */
 html, body {
-    margin: 20px;
+    height: 100%;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 main, select, button {
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     border-radius: 10px;
@@ -30,6 +32,9 @@ main { /* make child element stack vertically */
     flex-direction: column;
     align-items: center; /* center within container */
     text-align: center;
+    margin: 0;
+    padding: 0;
+    min-width: 90%;
 }
 
 /* all child elements of main (including select, button, divs) */
@@ -41,20 +46,23 @@ main > * {
 .main-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 100%; /* prevents content overflow */
 }
 
-.main-container div {
-    display: block;
+.form-contents-container {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 /* div w/ result of button click */
 #eatery-result-container {
-    display: block;
-    width: 100%;
     margin-top: 20px;
-    /* text-decoration: underline;
-    text-decoration-thickness: 5px solid black; */
+    width: 100%;
+    height: auto; /* flexible height for the res */ 
 }
 
 /* for the select & button elements */
@@ -65,7 +73,6 @@ select, button {
 }
 
 button {
-    margin: 20px 0px 20px 40px; /* top right bottom left */
     transition: color 0.4s, background-color 0.4s;
 }
 
@@ -80,64 +87,46 @@ button:active {
 }
 
 h1 {
-    margin: 0px;
+    font-size: 90px; /* non-header font's font size is 50 (line 24) */
+    margin: 0px 0px 30px 0px;
     padding: 0px;
-    margin-bottom: 30px;
 }
 
-/* responsive to diff. screen sizes, not full screen, almost email */
+/* responsive design for various sizes of screens */
+
+/* computers */
+@media screen and (max-width: 900px) {
+    main {
+        transform: scale(0.9);
+        transform-origin: center;
+    }
+}
+
+/* computers, tablets */
 @media screen and (max-width: 800px) {
-    h1 {
-        font-size: 60px;
-        margin-bottom: 15px;
-    }
-
-    select, button, div {
-        font-size: 40px;
-    }
-
-    /* result container */
-    div {
-        height: 50px;
-        width: 70%;
+    main {
+        transform: scale(0.8);
+        transform-origin: center;
     }
 }
 
-/* responsive to diff. screen sizes, small, mobile devices */
+/* tablets, mobile devices */
 @media screen and (max-width: 690px) {
-    h1 {
-        font-size: 50px;
-    }
-
-    select, button, div {
-        font-size: 30px;
-    }
-
-    /* result container */
-    div {
-        height: 40px;
-        width: 80%;
+    main {
+        transform: scale(0.7);
     }
 }
 
-/* responsive to diff. screen sizes, small, mobile devices */
+/* small screens, mobile devices */
+@media screen and (max-width: 500px) {
+    main {
+        transform: scale(0.5);
+    }
+}
+
+/* very small screens, mobile devices */
 @media screen and (max-width: 400px) {
-    h1 {
-        font-size: 35px;
-    }
-
-    select, button, div {
-        font-size: 15px;
-    }
-
-    /* result container */
-    div {
-        height: 25px;
-        width: 90%;
-    }
-
-    .custom-form select option {
-        /* words break wrapping onto next line */
-        word-break: break-word;
+    main {
+        transform: scale(0.4);
     }
 }
