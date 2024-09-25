@@ -51,7 +51,7 @@ main > * {
 }
 
 .form-contents-container {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -62,7 +62,7 @@ main > * {
 #eatery-result-container {
     margin-top: 20px;
     width: 100%;
-    height: auto; /* flexible height for the res */ 
+    height: 60px; /* flexible height for the res */ 
 }
 
 /* for the select & button elements */
