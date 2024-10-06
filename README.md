@@ -4,6 +4,13 @@
 
 [![Let's Eat app by Lucca Wang](/static/images/readme_markdown/LetsEat-webapp.gif)](#project-description)
 
+## Table of Contents
+[Project Description](#project-description)
+[Snapshot of Project](#snapshot-of-project) 
+[Technologies](#technologies)
+[Accessibility](#accessibility)
+[Author](#author)
+
 ## Project Description 
 __Let's Eat__ provides a solution to [psychological analysis paralysis (the pyschology term for when we have too many options that we freeze without being able to choose one)](https://health.clevelandclinic.org/analysis-paralysis). Simply put, __this app helps you decide where to eat quickly, with a click of a button!__
 
@@ -21,13 +28,13 @@ Wang built the app from scratch, [developing with __Python, Flask, JavaScript, G
 
 ## Snapshot of Project
 
-* __Full-stack web app built from scratch__, providing a solution to psychological analysis paralysis, simplifying decision making.
+* Built from scratch
 
-* [__Dynamic content generation with Python's random module and logic__.](#project-description) 
+* Data flow from the frontend to the backend, back to the frontend (so: user input in html to Python-Flask server, then back to the DOM with JavaScript) 
 
-* Uses [__accessibility with skip navigation, ARIA, and exceeding ADA requirements__](#accessibility).
+* Accessibility (skip navigation, ARIA, ADA requirements)
 
-* Utilizes [__Python's framework Flask__ for template (webpage) rendering, __JavaScript's event listening actions__, and an __API__ to enhance the font style and family.](#technologies)
+* 1 API integrated so far
 
 <br>
 

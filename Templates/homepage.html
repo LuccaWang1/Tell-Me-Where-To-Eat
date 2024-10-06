@@ -36,8 +36,10 @@
                 <div class="form-container">
                 <!-- id "form" in line directly below used in button.js - take selection or no selection, sends fetch request to python, receives data, and put it in the div below -->
                     <form id="form" aria-labelledby="form-heading" class="form-contents-container">
-                        
                         <!-- label for the select dropdown allows screen readers and other assistive technologies to associate the label with the form control for accessibility and usability -->
+                        <label for="location">Zip Code:</label>
+                        <input type="text" id="location" name="location">
+
                         <label for="eatery-preference"></label>
                         <select name="eatery-preference" id="eatery-preference" aria-label="Select a type of food" form="form">
                             <option class="option" value="">Type of food</option>
