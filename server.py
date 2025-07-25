@@ -49,6 +49,10 @@ def handle_choose_one():
     elif eatery == "fast_food":
         eatery = random.choice(eateries["fast_food"])
         return jsonify({"eatery": eatery})
+    
+    elif eatery == "ghost":
+        eatery = random.choice(eateries["ghost"])
+        return jsonify({"eatery": eatery})
         
     elif eatery == "italian": 
         eatery = random.choice(eateries["italian"])

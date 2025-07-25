@@ -65,3 +65,7 @@ eateries = {
     "italian": italian,
     "mexican": mexican,
 }
+
+ghost = {
+    
+}
